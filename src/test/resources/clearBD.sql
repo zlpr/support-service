@@ -1,0 +1,1 @@
+delete from participant_chat; delete from participant; delete from chat;

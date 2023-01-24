@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: zlpr
+      comment: Create tables
+      changes:
+        - sqlFile:
+            path: 01_users.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
